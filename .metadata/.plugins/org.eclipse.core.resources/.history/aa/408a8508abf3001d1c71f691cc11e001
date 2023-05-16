@@ -7,10 +7,8 @@ public class FirstProgram {
 		
 		System.out.println("AutomationTesting Training");
 		System.out.println("Hello All");
-	
-		System.out.println("Hello My Automation Team member");
 		
-		System.out.println("Hi Soujanya");
+		System.out.println("Hello My Automation Team member");
 	}
 
 }
