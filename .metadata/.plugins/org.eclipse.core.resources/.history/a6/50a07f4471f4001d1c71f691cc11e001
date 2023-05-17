@@ -1,0 +1,15 @@
+package FirstPackage;
+
+public class Strings {
+
+	public static void main(String[] args) {
+		
+		String x = "Testing";
+		String text = "Welcome to Automation Testing Training";
+		System.out.println(text);
+		System.out.println(x.length());
+		
+
+	}
+
+}
