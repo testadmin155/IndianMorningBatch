@@ -1,0 +1,37 @@
+package FirstPackage;
+
+public class Array {
+
+	public static void main(String[] args) {
+		//int x = 10;
+		//int y = 20;
+		
+		//int z - this is a variable
+		//int[] z - this is a Array
+		
+		//int[] b=new int[6];
+		
+		String[] names=new String[7];
+		names[0]="Soujanya";
+		names[1]="farhana";
+		names[2]="Divya";
+		names[3]="Tazeen";
+		names[4]="Sravanthi";
+		names[5]="sridevi";
+		names[6]="rajani";
+		//names[7]="sadik";
+		
+		System.out.println(names);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
