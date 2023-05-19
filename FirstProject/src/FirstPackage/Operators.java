@@ -17,7 +17,7 @@ public class Operators {
 		x = 200;
 		y= 200;
 		
-		System.out.println(x==y);    //True
+		System.out.println(x==y);   //True
 		System.out.println(x!=y);	//False
 		System.out.println(x>y);    //False
 		System.out.println(x<y);    //False
