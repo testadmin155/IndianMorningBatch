@@ -71,13 +71,27 @@ public class Strings {
 		}*/
 		
 		//Enhanced ForLoop
-		String word = "Automation testing session by Anees";
-		String[] splitvalue = word.split(" ");
+		/*String word = "Automation testing for Selenium by Anees";
+		String[] splitvalue = word.split("by");
 		for (String x:splitvalue)
 		{
-			//System.out.println(x);
-			System.err.println(x);
-		}
+			System.out.println(x.trim());
+			//System.err.println(x);
+			
+		}*/
+		
+		//Substring
+		String word = "Automation testing Selenium by for Anees shaik";
+		//String[] splitvalue = word.split("for");
+		//String splitvalue=word.substring(20);
+		//System.out.println(word.length());
+		//String splitvalue=word.substring(12,40);
+		int x= word.indexOf("for");
+		System.out.println(x);
+		String firstpart = word.substring(0, x);
+		System.out.println(firstpart);
+		String lastpart = word.substring(x, word.length());
+		System.out.println(lastpart);
 		
 	}
 
