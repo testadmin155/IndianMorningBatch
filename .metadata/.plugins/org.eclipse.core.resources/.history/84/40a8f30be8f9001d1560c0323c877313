@@ -81,45 +81,18 @@ public class Strings {
 		}*/
 		
 		//Substring
-		//String word = "Automation testing Selenium by for Anees shaik";
+		String word = "Automation testing Selenium by for Anees shaik";
 		//String[] splitvalue = word.split("for");
 		//String splitvalue=word.substring(20);
 		//System.out.println(word.length());
 		//String splitvalue=word.substring(12,40);
-		/*int x= word.indexOf("for");
+		int x= word.indexOf("for");
 		System.out.println(x);
 		String firstpart = word.substring(0, x);
 		System.out.println(firstpart);
 		String lastpart = word.substring(x, word.length());
-		System.out.println(lastpart);*/
-		
-		String x = "This is a clarifing sesasioan";
-		char letter = 'a';
-		int position = 3;
-		int count = 0;
-		for (int i=0; i<x.length(); i++)
-		{
-			if(x.charAt(i)==letter) 
-			{
-				count++;
-				if(count == position)
-				{
-					System.out.println("The Position of a second a is " + i);
-					
-				}
-				
-			}
-
-
-			
-		}
-		
-		}
-		
-		
-		
-		
+		System.out.println(lastpart);
 		
 	}
 
-
+}

@@ -1,0 +1,60 @@
+package FirstPackage;
+
+public class Methods {
+	
+	//How to create a method
+	public void login()
+	{
+		System.out.println("Enter user as Sudha");
+		System.out.println("Enter Password as Password@123");
+		System.out.println("click on login");
+	}
+	
+	public void logout()
+	{
+		System.out.println("logout");
+	}
+	
+
+
+	public static void main(String[] args) {
+		
+	// Method - whenever we feel that some set of lines / code is repeatedly used then we can create a method/function
+		//login  page
+		System.out.println("open the url");
+		System.out.println("Enter user as Sudha");
+		System.out.println("Enter Password as Password@123");
+		System.out.println("click on login");
+		
+		System.out.println("logout");
+		
+		System.out.println("Enter user as Rajani");
+		System.out.println("Enter Password as Welcome");
+		System.out.println("click on login");
+		
+		System.out.println("logout");
+		
+		System.out.println("Enter user as Sravanthi");
+		System.out.println("Enter Password as Welcome@123");
+		System.out.println("click on login");
+		
+		
+		
+		System.out.println("Enter user as Soujanya");
+		System.out.println("Enter Password as Welcome@444");
+		System.out.println("click on login");
+		
+		System.out.println("logout");
+		
+		System.out.println("Enter user as Sridevi");
+		System.out.println("Enter Password as Welcome@987");
+		System.out.println("click on login");
+		
+
+		
+		
+		
+
+	}
+
+}

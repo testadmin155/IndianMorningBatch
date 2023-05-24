@@ -1,0 +1,15 @@
+package FirstPackage;
+
+public class Methods {
+
+	public static void main(String[] args) {
+		
+		//login  page
+		System.out.println("Enter user");
+		System.out.println("Enter Password");
+		System.out.println("click on login");
+		
+
+	}
+
+}

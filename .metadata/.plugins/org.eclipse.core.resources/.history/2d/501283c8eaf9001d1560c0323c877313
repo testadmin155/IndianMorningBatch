@@ -93,9 +93,9 @@ public class Strings {
 		String lastpart = word.substring(x, word.length());
 		System.out.println(lastpart);*/
 		
-		String x = "This is a clarifing sesasioan";
+		String x = "This is a clarifing session";
 		char letter = 'a';
-		int position = 3;
+		int position = 2;
 		int count = 0;
 		for (int i=0; i<x.length(); i++)
 		{

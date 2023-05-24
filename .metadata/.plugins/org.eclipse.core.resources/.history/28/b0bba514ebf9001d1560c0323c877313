@@ -93,7 +93,7 @@ public class Strings {
 		String lastpart = word.substring(x, word.length());
 		System.out.println(lastpart);*/
 		
-		String x = "This is a clarifing sesasioan";
+		String x = "This is a clarifing sesasion";
 		char letter = 'a';
 		int position = 3;
 		int count = 0;
