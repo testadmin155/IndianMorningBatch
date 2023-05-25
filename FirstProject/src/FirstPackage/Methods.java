@@ -134,7 +134,6 @@ public class Methods {
 		 obj.login("Soujanya","Password999");
 		 
 		 
-		 
 		 System.out.println("Hello Sudha how are you");
 
 	}

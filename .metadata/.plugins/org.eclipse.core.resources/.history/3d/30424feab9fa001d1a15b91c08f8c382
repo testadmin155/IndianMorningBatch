@@ -1,0 +1,63 @@
+package FirstPackage;
+
+public class Iphone13 implements TROIInterface {
+	
+	@Override
+	public void SwitchOn() {
+		System.out.println("Press left Button");
+		
+	}
+
+	@Override
+	public void SwitchOff() {
+		System.out.println("Press Right Button");
+		
+	}
+
+	@Override
+	public void IncomingCalls() {
+		System.out.println("scroll Right side");
+		
+	}
+
+	@Override
+	public void OutgingCalls() {
+		System.out.println("scroll Left side");
+		
+	}
+
+	@Override
+	public void Messages() {
+		System.out.println("this is a Maessage");
+		
+	}
+
+	@Override
+	public void CallDivert() {
+		System.out.println("this is a CallDivert");
+		
+	}
+	
+	@Override
+	public void CallWaiting() {
+		System.out.println("this is a CallWaiting");
+		
+	}
+	
+	public void camera()
+	{
+		System.out.println("THis is a Camera");
+	}
+
+	
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+	
+
+	
+
+}
