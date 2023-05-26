@@ -1,0 +1,15 @@
+package FirstPackage;
+
+public class Belgium extends NHAuthority {
+
+	public static void main(String[] args) {
+		
+		Belgium obj = new Belgium();
+		obj.GreenLight();
+		obj.RedLight();
+		obj.OrangeLight();
+		obj.getData();
+
+	}
+
+}

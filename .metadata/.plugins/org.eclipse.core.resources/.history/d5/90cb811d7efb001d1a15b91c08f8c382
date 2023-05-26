@@ -1,0 +1,20 @@
+package FirstPackage;
+
+public class Belgium extends NHAuthority {
+
+	public void myCountry()
+	{
+		System.out.println("This is Belgium");
+	}
+	public static void main(String[] args) {
+		
+		Belgium obj = new Belgium();
+
+		obj.GreenLight();
+		obj.RedLight();
+		obj.OrangeLight();
+
+
+	}
+
+}

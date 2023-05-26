@@ -39,6 +39,12 @@ public class Methods {
 		System.out.println("click on login");
 	}
 	*/
+	
+	public static void staticMethod()
+	{
+		System.out.println("I am a static Method");
+	}
+	
 	public void logout()
 	{
 		System.out.println("logout");
@@ -133,6 +139,7 @@ public class Methods {
 		 obj.login("Tazeen","Password");
 		 obj.login("Soujanya","Password999");
 		 
+		 staticMethod();
 		 
 		 System.out.println("Hello Sudha how are you");
 
