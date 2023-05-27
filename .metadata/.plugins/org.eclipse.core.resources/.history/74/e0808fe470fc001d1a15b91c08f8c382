@@ -6,7 +6,7 @@ public class FriendClass extends Child1Class{
 		
 		FriendClass obj = new FriendClass();
 		
-		//obj.Bike();
+		obj.Bike();
 		obj.Money();
 		obj.ownHouse();
 

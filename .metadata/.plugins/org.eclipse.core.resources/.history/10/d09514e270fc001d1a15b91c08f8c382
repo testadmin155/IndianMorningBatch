@@ -26,7 +26,7 @@ public class Parent1Class extends GrandParent{
 		
 		Parent1Class obj = new Parent1Class();
 		
-		//obj.Bike();
+		obj.Bike();
 		obj.Job();
 		obj.Money();
 		obj.FreeTime();
