@@ -2,7 +2,7 @@ package FirstPackage;
 
 public class Parent1Class extends GrandParent{
 	
-	public void Bike(String BikeName) 
+	public void Bike() 
 	{
 		System.out.println("Hero");
 	}
@@ -26,7 +26,7 @@ public class Parent1Class extends GrandParent{
 		
 		Parent1Class obj = new Parent1Class();
 		
-		//obj.Bike();
+		obj.Bike();
 		obj.Job();
 		obj.Money();
 		obj.FreeTime();

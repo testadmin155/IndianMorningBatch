@@ -1,0 +1,15 @@
+package FirstPackage;
+
+public class AccessModifier {
+
+	public static void main(String[] args) {
+		// there are 4 types Access Modifiers
+		
+		// public - 
+		// default -
+		// private -
+		//protected
+
+	}
+
+}

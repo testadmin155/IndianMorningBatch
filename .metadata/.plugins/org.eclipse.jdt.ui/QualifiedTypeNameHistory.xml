@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="FirstPackage.IphoneInterface"/>
+    <fullyQualifiedTypeName name="FirstPackage.TROIInterface"/>
+    <fullyQualifiedTypeName name="FirstPackage.NHAuthority"/>
+    <fullyQualifiedTypeName name="FirstPackage.Parent1Class"/>
+    <fullyQualifiedTypeName name="FirstPackage.GrandParent"/>
+    <fullyQualifiedTypeName name="FirstPackage.Child1Class"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,45 @@
+package FirstPackage;
+
+public class House1 {
+	
+	public int x = 10;
+	protected int y = 20;
+	private int z = 50;
+	String b = "Testing";
+	
+	public void PublicMethod()
+	{
+		System.out.println("This is a Public Method");
+	}
+	
+	protected void ProtectedMethod()
+	{
+		System.out.println("This is a Protected Method");
+	}
+
+	
+	private void PrivateMethod()
+	{
+		System.out.println("This is a Private Method");
+	}
+
+	
+	void DefaultMethod()
+	{
+		System.out.println("This is a Default Method");
+	}
+
+
+	public static void main(String[] args) {
+		// there are 4 types Access Modifiers
+		
+		// public - 
+		// default -
+		// private -
+		// protected -
+		
+		
+
+	}
+
+}
