@@ -1,0 +1,14 @@
+package FirstPackage;
+
+public class EncapsulationDemo {
+
+	public static void main(String[] args) {
+		
+		Encapsulation obj = new Encapsulation();
+		obj.setPhonenumber(356345);
+		obj.getPhonenumber();
+		
+
+	}
+
+}

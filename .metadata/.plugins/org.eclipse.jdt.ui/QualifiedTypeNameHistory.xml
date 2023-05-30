@@ -6,4 +6,5 @@
     <fullyQualifiedTypeName name="FirstPackage.Parent1Class"/>
     <fullyQualifiedTypeName name="FirstPackage.GrandParent"/>
     <fullyQualifiedTypeName name="FirstPackage.Child1Class"/>
+    <fullyQualifiedTypeName name="FirstPackage.House1"/>
 </qualifiedTypeNameHistroy>
