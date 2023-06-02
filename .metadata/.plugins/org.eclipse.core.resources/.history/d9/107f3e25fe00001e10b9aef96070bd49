@@ -1,0 +1,17 @@
+package FirstPackage;
+
+public class WrapperClass {
+
+	public static void main(String[] args) {
+		
+		//
+		
+		String Mobile = "5000";
+		String Headset = "1000";
+		
+		String TotalAmount = Mobile+Headset;
+		System.out.println(TotalAmount);
+
+	}
+
+}
