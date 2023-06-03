@@ -1,9 +1,0 @@
-package FirstPackage;
-
-public interface Interface {
-	
-	//Interface will have only unimplemented Methods
-	
-	public void SwitchOn();
-
-}

@@ -1,0 +1,17 @@
+package FirstPackage;
+
+public class ExceptionHandling {
+
+	public static void main(String[] args) {
+		
+		//https://www.javatpoint.com/types-of-exception-in-java
+		
+		int a =7;
+		int b=0;
+		
+		System.out.println("BeforeTest");
+		int c=a/b;
+       System.out.println("AfterTest");
+	}
+
+}
