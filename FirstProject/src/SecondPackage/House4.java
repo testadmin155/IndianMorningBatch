@@ -1,9 +1,12 @@
 package SecondPackage;
 
+import FirstPackage.Methods;
+
 public class House4 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		Methods obj = new Methods();
 
 	}
 

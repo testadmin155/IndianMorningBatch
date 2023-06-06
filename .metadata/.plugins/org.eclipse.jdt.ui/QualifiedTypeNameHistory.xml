@@ -7,4 +7,8 @@
     <fullyQualifiedTypeName name="FirstPackage.GrandParent"/>
     <fullyQualifiedTypeName name="FirstPackage.Child1Class"/>
     <fullyQualifiedTypeName name="FirstPackage.House1"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
 </qualifiedTypeNameHistroy>
