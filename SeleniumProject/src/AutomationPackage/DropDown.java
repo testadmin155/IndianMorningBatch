@@ -8,6 +8,18 @@ import org.openqa.selenium.support.ui.Select;
 public class DropDown {
 	
 	static WebDriver driver;
+	
+	static void validation(String ActualSelectedvalue, String ExpectedSelectedValue)
+	{
+		if(ActualSelectedvalue.equals(ExpectedSelectedValue))
+		{
+			System.out.println("Pass");
+		}
+		else
+		{
+			System.out.println("Fail");
+		}
+	}
 
 	public static void main(String[] args) {
 		
@@ -74,15 +86,8 @@ public class DropDown {
 		
 		String ActualSelectedvalue=driver.findElement(By.className("paxinfo")).getText();
 		String ExpectedSelectedValue="3 Adult, 4 Child, 1 Infant";
-		if(ActualSelectedvalue.equals(ExpectedSelectedValue))
-		{
-			System.out.println("Pass");
-		}
-		else
-		{
-			System.out.println("Fail");
-		}
 		
+		validation(ActualSelectedvalue, ExpectedSelectedValue);
 		
 		
 		//driver.close();
