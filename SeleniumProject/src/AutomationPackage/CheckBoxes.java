@@ -10,6 +10,22 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class CheckBoxes {
 
 	static WebDriver driver;
+	
+	public void CheckboxSelection(String discountvalue, String id)
+	{
+		List<WebElement> discounts = driver.findElements(By.xpath("//div[@id='divdiscountcheckbox']/div/div/p"));
+
+		for (WebElement SingleOption:discounts)
+		{
+			System.out.println(SingleOption.getText());
+			if(SingleOption.getText().equals(discountvalue)) 
+			{
+				driver.findElement(By.id("ControlGroupSearchView_AvailabilitySearchInputSearchView_"+id+"")).click();
+
+			}
+		}
+	}
+		
 
 	public static void main(String[] args) {
 
@@ -18,14 +34,13 @@ public class CheckBoxes {
 		driver.get("https://book.spicejet.com/");
 		driver.manage().window().maximize();
 
+		//Script to handle individual Checkbox
 		//driver.findElement(By.id("ControlGroupSearchView_AvailabilitySearchInputSearchView_SeniorCitizen")).click();
-
 		//driver.findElement(By.id("ControlGroupSearchView_AvailabilitySearchInputSearchView_LTCFare")).click();
-
 		//driver.findElement(By.id("ControlGroupSearchView_AvailabilitySearchInputSearchView_Defense")).click();
 
 		//Script to read the text of all the checkboxs
-		String mydiscount="Unaccompanied Minor";
+		/*String mydiscount="Unaccompanied Minor";
 		List<WebElement> discounts = driver.findElements(By.xpath("//div[@id='divdiscountcheckbox']/div/div/p"));
 
 		for (WebElement SingleOption:discounts)
@@ -33,7 +48,7 @@ public class CheckBoxes {
 
 			System.out.println(SingleOption.getText());
 
-			/*if(SingleOption.getText().equals(x)) //Family & Friends
+			if(SingleOption.getText().equals(x)) //Family & Friends
 			{
 				driver.findElement(By.id("ControlGroupSearchView_AvailabilitySearchInputSearchView_FamilyAndFriends")).click();
 
@@ -68,7 +83,7 @@ public class CheckBoxes {
 				driver.findElement(By.id("ControlGroupSearchView_AvailabilitySearchInputSearchView_UNMR")).click();
 			}*/
 
-			if(SingleOption.getText().equals(mydiscount))
+			/*if(SingleOption.getText().equals(mydiscount))
 			{
 			switch (SingleOption.getText())
 			{
@@ -106,9 +121,14 @@ public class CheckBoxes {
 	} 
 			
 			break;
-			}
-		} } }
-
+			} }*/
+		
+		
+		CheckBoxes obj=new CheckBoxes();
+		obj.CheckboxSelection("Unaccompanied Minor", "UNMR");
+		
+			
+		} }
 
 
 
