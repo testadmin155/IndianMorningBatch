@@ -1,7 +1,10 @@
 package AutomationPackage;
 
+import java.io.File;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -37,6 +40,7 @@ public class MouseActions {
 		
 		//script to double click
 		mouse.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("electronics").doubleClick().perform();
+
 		
 
 	}
