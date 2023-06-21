@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LoanDepartment">
+<test name="HomeLoan">
+<classes>
+<class name ="ICICIBank.MortgageLoan">
+<methods>
+<include name="MortgageLoanwithAPP"/>
+</methods>
+</class>
+<class name ="ICICIBank.SmartLoan"/>
+</classes>
+</test>
+
+<test name="PersonalLoan">
+<classes>
+<class name ="ICICIBank.FixedLoan"/>
+<class name ="ICICIBank.FlexiLoan"/>
+</classes>
+</test>
+
+<test name="CarLoan">
+<classes>
+<class name ="ICICIBank.CarBuy"/>
+<class name ="ICICIBank.CarLease"/>
+</classes>
+</test>
+
+</suite>

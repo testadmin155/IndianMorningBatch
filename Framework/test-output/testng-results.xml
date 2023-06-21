@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-21T04:25:28Z" name="Suite" finished-at="2023-06-21T04:25:29Z" duration-ms="100">
+    <groups>
+    </groups>
+    <test started-at="2023-06-21T04:25:28Z" name="Test" finished-at="2023-06-21T04:25:29Z" duration-ms="100">
+      <class name="LoanDepartment.HomeLoan">
+        <test-method signature="BestBuyLoan()[pri:0, instance:LoanDepartment.HomeLoan@3c9754d8]" started-at="2023-06-21T06:25:29Z" name="BestBuyLoan" finished-at="2023-06-21T06:25:29Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BestBuyLoan -->
+        <test-method signature="MortageLoan()[pri:0, instance:LoanDepartment.HomeLoan@3c9754d8]" started-at="2023-06-21T06:25:29Z" name="MortageLoan" finished-at="2023-06-21T06:25:29Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MortageLoan -->
+      </class> <!-- LoanDepartment.HomeLoan -->
+      <class name="LoanDepartment.CarLoan">
+        <test-method signature="CarLeaseLoan()[pri:0, instance:LoanDepartment.CarLoan@49438269]" started-at="2023-06-21T06:25:28Z" name="CarLeaseLoan" finished-at="2023-06-21T06:25:28Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLeaseLoan -->
+        <test-method signature="SmartLoan()[pri:0, instance:LoanDepartment.CarLoan@49438269]" started-at="2023-06-21T06:25:28Z" name="SmartLoan" finished-at="2023-06-21T06:25:28Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SmartLoan -->
+      </class> <!-- LoanDepartment.CarLoan -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
