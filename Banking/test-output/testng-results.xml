@@ -1,63 +1,335 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="3" passed="2" failed="1" skipped="0">
+<testng-results total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-21T05:05:53Z" name="Default suite" finished-at="2023-06-21T05:05:53Z" duration-ms="59">
+  <suite started-at="2023-06-22T04:44:59Z" name="LoanDepartment" finished-at="2023-06-22T04:44:59Z" duration-ms="564">
     <groups>
+      <group name="Sanity">
+        <method signature="MortgageLoan.MortgageLoanwithBranch()[pri:0, instance:ICICIBank.MortgageLoan@7d20d0b]" name="MortgageLoanwithBranch" class="ICICIBank.MortgageLoan"/>
+        <method signature="SmartLoan.SmartLoanwithAPP()[pri:0, instance:ICICIBank.SmartLoan@752325ad]" name="SmartLoanwithAPP" class="ICICIBank.SmartLoan"/>
+        <method signature="FixedLoan.FixedLoanwithBranch()[pri:0, instance:ICICIBank.FixedLoan@75db5df9]" name="FixedLoanwithBranch" class="ICICIBank.FixedLoan"/>
+        <method signature="FlexiLoan.FlexiLoanwithWeb()[pri:0, instance:ICICIBank.FlexiLoan@33c911a1]" name="FlexiLoanwithWeb" class="ICICIBank.FlexiLoan"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="MortgageLoan.MortgageLoanwithAPP()[pri:0, instance:ICICIBank.MortgageLoan@7d20d0b]" name="MortgageLoanwithAPP" class="ICICIBank.MortgageLoan"/>
+        <method signature="SmartLoan.SmartLoanwithWeb()[pri:0, instance:ICICIBank.SmartLoan@752325ad]" name="SmartLoanwithWeb" class="ICICIBank.SmartLoan"/>
+        <method signature="FixedLoan.FixedLoanwithAPP()[pri:0, instance:ICICIBank.FixedLoan@75db5df9]" name="FixedLoanwithAPP" class="ICICIBank.FixedLoan"/>
+        <method signature="FlexiLoan.FlexiLoanwithAPP()[pri:0, instance:ICICIBank.FlexiLoan@33c911a1]" name="FlexiLoanwithAPP" class="ICICIBank.FlexiLoan"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2023-06-21T05:05:53Z" name="Default test" finished-at="2023-06-21T05:05:53Z" duration-ms="59">
-      <class name="ICICIBank.CarBuy">
-        <test-method signature="CarBuywithAPP()[pri:0, instance:ICICIBank.CarBuy@2812b107]" started-at="2023-06-21T07:05:53Z" name="CarBuywithAPP" finished-at="2023-06-21T07:05:53Z" duration-ms="14" status="PASS">
+    <test started-at="2023-06-22T04:44:59Z" name="HomeLoan" finished-at="2023-06-22T04:44:59Z" duration-ms="154">
+      <class name="ICICIBank.MortgageLoan">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:ICICIBank.MortgageLoan@7d20d0b]" started-at="2023-06-22T06:44:59Z" name="beforeclass" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CarBuywithAPP -->
-        <test-method signature="CarBuywithBranch()[pri:0, instance:ICICIBank.CarBuy@2812b107]" started-at="2023-06-21T07:05:53Z" name="CarBuywithBranch" finished-at="2023-06-21T07:05:53Z" duration-ms="3" status="PASS">
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ICICIBank.MortgageLoan@7d20d0b]" started-at="2023-06-22T06:44:59Z" name="beforemethod" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="MortgageLoanwithAPP()[pri:0, instance:ICICIBank.MortgageLoan@7d20d0b]" started-at="2023-06-22T06:44:59Z" name="MortgageLoanwithAPP" finished-at="2023-06-22T06:44:59Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MortgageLoanwithAPP -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ICICIBank.MortgageLoan@7d20d0b]" started-at="2023-06-22T06:44:59Z" name="aftermethod" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="MortgageLoanwithBranch()[pri:0, instance:ICICIBank.MortgageLoan@7d20d0b]" started-at="2023-06-22T06:44:59Z" name="MortgageLoanwithBranch" finished-at="2023-06-22T06:44:59Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MortgageLoanwithBranch -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ICICIBank.MortgageLoan@7d20d0b]" started-at="2023-06-22T06:44:59Z" name="beforemethod" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ICICIBank.MortgageLoan@7d20d0b]" started-at="2023-06-22T06:44:59Z" name="aftermethod" finished-at="2023-06-22T06:44:59Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ICICIBank.MortgageLoan@7d20d0b]" started-at="2023-06-22T06:44:59Z" name="beforemethod" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="MortgageLoanwithWeb()[pri:0, instance:ICICIBank.MortgageLoan@7d20d0b]" started-at="2023-06-22T06:44:59Z" name="MortgageLoanwithWeb" finished-at="2023-06-22T06:44:59Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MortgageLoanwithWeb -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ICICIBank.MortgageLoan@7d20d0b]" started-at="2023-06-22T06:44:59Z" name="aftermethod" finished-at="2023-06-22T06:44:59Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:ICICIBank.MortgageLoan@7d20d0b]" started-at="2023-06-22T06:44:59Z" name="afterclass" finished-at="2023-06-22T06:44:59Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- ICICIBank.MortgageLoan -->
+      <class name="ICICIBank.SmartLoan">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:ICICIBank.SmartLoan@752325ad]" started-at="2023-06-22T06:44:59Z" name="beforetest" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:ICICIBank.SmartLoan@752325ad]" started-at="2023-06-22T06:44:59Z" name="beforeclass" finished-at="2023-06-22T06:44:59Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ICICIBank.SmartLoan@752325ad]" started-at="2023-06-22T06:44:59Z" name="beforemethod" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="SmartLoanwithAPP()[pri:0, instance:ICICIBank.SmartLoan@752325ad]" started-at="2023-06-22T06:44:59Z" name="SmartLoanwithAPP" finished-at="2023-06-22T06:44:59Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SmartLoanwithAPP -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ICICIBank.SmartLoan@752325ad]" started-at="2023-06-22T06:44:59Z" name="aftermethod" finished-at="2023-06-22T06:44:59Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="SmartLoanwithBranch()[pri:0, instance:ICICIBank.SmartLoan@752325ad]" started-at="2023-06-22T06:44:59Z" name="SmartLoanwithBranch" finished-at="2023-06-22T06:44:59Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SmartLoanwithBranch -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ICICIBank.SmartLoan@752325ad]" started-at="2023-06-22T06:44:59Z" name="beforemethod" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ICICIBank.SmartLoan@752325ad]" started-at="2023-06-22T06:44:59Z" name="aftermethod" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ICICIBank.SmartLoan@752325ad]" started-at="2023-06-22T06:44:59Z" name="beforemethod" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="SmartLoanwithWeb()[pri:0, instance:ICICIBank.SmartLoan@752325ad]" started-at="2023-06-22T06:44:59Z" name="SmartLoanwithWeb" finished-at="2023-06-22T06:44:59Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SmartLoanwithWeb -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ICICIBank.SmartLoan@752325ad]" started-at="2023-06-22T06:44:59Z" name="aftermethod" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:ICICIBank.SmartLoan@752325ad]" started-at="2023-06-22T06:44:59Z" name="aftertest" finished-at="2023-06-22T06:44:59Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:ICICIBank.SmartLoan@752325ad]" started-at="2023-06-22T06:44:59Z" name="afterclass" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- ICICIBank.SmartLoan -->
+    </test> <!-- HomeLoan -->
+    <test started-at="2023-06-22T04:44:59Z" name="PersonalLoan" finished-at="2023-06-22T04:44:59Z" duration-ms="58">
+      <class name="ICICIBank.FlexiLoan">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:ICICIBank.FlexiLoan@33c911a1]" started-at="2023-06-22T06:44:59Z" name="beforetest" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:ICICIBank.FlexiLoan@33c911a1]" started-at="2023-06-22T06:44:59Z" name="beforeclass" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ICICIBank.FlexiLoan@33c911a1]" started-at="2023-06-22T06:44:59Z" name="beforemethod" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="FlexiLoanwithAPP()[pri:0, instance:ICICIBank.FlexiLoan@33c911a1]" started-at="2023-06-22T06:44:59Z" name="FlexiLoanwithAPP" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlexiLoanwithAPP -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ICICIBank.FlexiLoan@33c911a1]" started-at="2023-06-22T06:44:59Z" name="aftermethod" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ICICIBank.FlexiLoan@33c911a1]" started-at="2023-06-22T06:44:59Z" name="beforemethod" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="FlexiLoanwithBranch()[pri:0, instance:ICICIBank.FlexiLoan@33c911a1]" started-at="2023-06-22T06:44:59Z" name="FlexiLoanwithBranch" finished-at="2023-06-22T06:44:59Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlexiLoanwithBranch -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ICICIBank.FlexiLoan@33c911a1]" started-at="2023-06-22T06:44:59Z" name="aftermethod" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="FlexiLoanwithWeb()[pri:0, instance:ICICIBank.FlexiLoan@33c911a1]" started-at="2023-06-22T06:44:59Z" name="FlexiLoanwithWeb" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlexiLoanwithWeb -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ICICIBank.FlexiLoan@33c911a1]" started-at="2023-06-22T06:44:59Z" name="beforemethod" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ICICIBank.FlexiLoan@33c911a1]" started-at="2023-06-22T06:44:59Z" name="aftermethod" finished-at="2023-06-22T06:44:59Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:ICICIBank.FlexiLoan@33c911a1]" started-at="2023-06-22T06:44:59Z" name="afterclass" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:ICICIBank.FlexiLoan@33c911a1]" started-at="2023-06-22T06:44:59Z" name="aftertest" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- ICICIBank.FlexiLoan -->
+      <class name="ICICIBank.FixedLoan">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:ICICIBank.FixedLoan@75db5df9]" started-at="2023-06-22T06:44:59Z" name="beforeclass" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ICICIBank.FixedLoan@75db5df9]" started-at="2023-06-22T06:44:59Z" name="beforemethod" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="FixedLoanwithAPP()[pri:0, instance:ICICIBank.FixedLoan@75db5df9]" started-at="2023-06-22T06:44:59Z" name="FixedLoanwithAPP" finished-at="2023-06-22T06:44:59Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FixedLoanwithAPP -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ICICIBank.FixedLoan@75db5df9]" started-at="2023-06-22T06:44:59Z" name="aftermethod" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ICICIBank.FixedLoan@75db5df9]" started-at="2023-06-22T06:44:59Z" name="beforemethod" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="FixedLoanwithBranch()[pri:0, instance:ICICIBank.FixedLoan@75db5df9]" started-at="2023-06-22T06:44:59Z" name="FixedLoanwithBranch" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FixedLoanwithBranch -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ICICIBank.FixedLoan@75db5df9]" started-at="2023-06-22T06:44:59Z" name="aftermethod" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ICICIBank.FixedLoan@75db5df9]" started-at="2023-06-22T06:44:59Z" name="beforemethod" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="FixedLoanwithWeb()[pri:0, instance:ICICIBank.FixedLoan@75db5df9]" started-at="2023-06-22T06:44:59Z" name="FixedLoanwithWeb" finished-at="2023-06-22T06:44:59Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FixedLoanwithWeb -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ICICIBank.FixedLoan@75db5df9]" started-at="2023-06-22T06:44:59Z" name="aftermethod" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:ICICIBank.FixedLoan@75db5df9]" started-at="2023-06-22T06:44:59Z" name="afterclass" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- ICICIBank.FixedLoan -->
+    </test> <!-- PersonalLoan -->
+    <test started-at="2023-06-22T04:44:59Z" name="CarLoan" finished-at="2023-06-22T04:44:59Z" duration-ms="55">
+      <class name="ICICIBank.CarBuy">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:ICICIBank.CarBuy@26b3fd41]" started-at="2023-06-22T06:44:59Z" name="beforeclass" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="CarBuywithBranch()[pri:0, instance:ICICIBank.CarBuy@26b3fd41]" started-at="2023-06-22T06:44:59Z" name="CarBuywithBranch" finished-at="2023-06-22T06:44:59Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CarBuywithBranch -->
-        <test-method signature="CarBuywithWeb()[pri:0, instance:ICICIBank.CarBuy@2812b107]" started-at="2023-06-21T07:05:53Z" name="CarBuywithWeb" finished-at="2023-06-21T07:05:53Z" duration-ms="7" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:89)
-	at org.testng.Assert.failNotEquals(Assert.java:489)
-	at org.testng.Assert.assertTrue(Assert.java:37)
-	at org.testng.Assert.assertTrue(Assert.java:47)
-	at ICICIBank.CarBuy.CarBuywithWeb(CarBuy.java:26)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
-	at org.testng.TestNG.run(TestNG.java:1030)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ICICIBank.CarBuy@26b3fd41]" started-at="2023-06-22T06:44:59Z" name="beforemethod" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ICICIBank.CarBuy@26b3fd41]" started-at="2023-06-22T06:44:59Z" name="aftermethod" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ICICIBank.CarBuy@26b3fd41]" started-at="2023-06-22T06:44:59Z" name="beforemethod" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="CarBuywithWeb()[pri:0, instance:ICICIBank.CarBuy@26b3fd41]" started-at="2023-06-22T06:44:59Z" name="CarBuywithWeb" finished-at="2023-06-22T06:44:59Z" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CarBuywithWeb -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ICICIBank.CarBuy@26b3fd41]" started-at="2023-06-22T06:44:59Z" name="aftermethod" finished-at="2023-06-22T06:44:59Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ICICIBank.CarBuy@26b3fd41]" started-at="2023-06-22T06:44:59Z" name="beforemethod" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="CarBuywithAPP()[pri:0, instance:ICICIBank.CarBuy@26b3fd41]" started-at="2023-06-22T06:44:59Z" name="CarBuywithAPP" finished-at="2023-06-22T06:44:59Z" depends-on-methods="ICICIBank.CarBuy.CarBuywithWeb" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarBuywithAPP -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:ICICIBank.CarBuy@26b3fd41]" started-at="2023-06-22T06:44:59Z" name="afterclass" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ICICIBank.CarBuy@26b3fd41]" started-at="2023-06-22T06:44:59Z" name="aftermethod" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
       </class> <!-- ICICIBank.CarBuy -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="ICICIBank.CarLease">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:ICICIBank.CarLease@192c3f1e]" started-at="2023-06-22T06:44:58Z" name="beforesuite" finished-at="2023-06-22T06:44:59Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:ICICIBank.CarLease@192c3f1e]" started-at="2023-06-22T06:44:59Z" name="beforetest" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:ICICIBank.CarLease@192c3f1e]" started-at="2023-06-22T06:44:59Z" name="beforeclass" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ICICIBank.CarLease@192c3f1e]" started-at="2023-06-22T06:44:59Z" name="beforemethod" finished-at="2023-06-22T06:44:59Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="CarLeasewithBranch()[pri:0, instance:ICICIBank.CarLease@192c3f1e]" started-at="2023-06-22T06:44:59Z" name="CarLeasewithBranch" finished-at="2023-06-22T06:44:59Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLeasewithBranch -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ICICIBank.CarLease@192c3f1e]" started-at="2023-06-22T06:44:59Z" name="aftermethod" finished-at="2023-06-22T06:44:59Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ICICIBank.CarLease@192c3f1e]" started-at="2023-06-22T06:44:59Z" name="beforemethod" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="CarLeasewithWeb()[pri:0, instance:ICICIBank.CarLease@192c3f1e]" started-at="2023-06-22T06:44:59Z" name="CarLeasewithWeb" finished-at="2023-06-22T06:44:59Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLeasewithWeb -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ICICIBank.CarLease@192c3f1e]" started-at="2023-06-22T06:44:59Z" name="beforemethod" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ICICIBank.CarLease@192c3f1e]" started-at="2023-06-22T06:44:59Z" name="aftermethod" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="CarLeasewithAPP()[pri:0, instance:ICICIBank.CarLease@192c3f1e]" started-at="2023-06-22T06:44:59Z" name="CarLeasewithAPP" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLeasewithAPP -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:ICICIBank.CarLease@192c3f1e]" started-at="2023-06-22T06:44:59Z" name="aftermethod" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:ICICIBank.CarLease@192c3f1e]" started-at="2023-06-22T06:44:59Z" name="aftertest" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:ICICIBank.CarLease@192c3f1e]" started-at="2023-06-22T06:44:59Z" name="afterclass" finished-at="2023-06-22T06:44:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:ICICIBank.CarLease@192c3f1e]" started-at="2023-06-22T06:44:59Z" name="aftersuite" finished-at="2023-06-22T06:44:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- ICICIBank.CarLease -->
+    </test> <!-- CarLoan -->
+  </suite> <!-- LoanDepartment -->
 </testng-results>

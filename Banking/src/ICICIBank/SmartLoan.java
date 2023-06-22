@@ -2,9 +2,9 @@ package ICICIBank;
 
 import org.testng.annotations.Test;
 
-public class SmartLoan {
+public class SmartLoan extends Annotations{
 	
-	@Test
+	@Test(groups= {"Regression"})
 	public void SmartLoanwithWeb()
 	{
 		System.out.println("SmartLoanwithWeb");

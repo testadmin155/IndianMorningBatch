@@ -29,30 +29,62 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing=0 cellpadding=0 class="param">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">HomeLoan</td><td class="numi">6</td><td class="numi">6</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">PersonalLoan</td><td class="numi">6</td><td class="numi">6</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">CarLoan</td><td class="numi">6</td><td class="numi">6</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">18</td><td class="numi">18</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.6 seconds</td><td colspan="2">&nbsp;</td></tr>
 </table>
 <a id="summary"></a>
 <table cellspacing=0 cellpadding=0 class="passed">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Default test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">ICICIBank.CarBuy<td><a href="#m1"><b>CarBuywithWeb</b>  </a></td><td class="numi">1</td><td>1687323953633</td><td class="numi">7</td></tr>
-<tr><th colspan="4">Default test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="2">ICICIBank.CarBuy<td><a href="#m2"><b>CarBuywithAPP</b>  </a></td><td class="numi">1</td><td>1687323953612</td><td class="numi">14</td></tr><tr class="passedodd"><td><a href="#m3"><b>CarBuywithBranch</b>  </a></td><td class="numi">1</td><td>1687323953628</td><td class="numi">3</td></tr>
+<tr><th colspan="4">HomeLoan &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="3">ICICIBank.MortgageLoan<td><a href="#m1"><b>MortgageLoanwithAPP</b> (Regression) </a></td><td class="numi">1</td><td>1687409099038</td><td class="numi">16</td></tr><tr class="passedodd"><td><a href="#m2"><b>MortgageLoanwithBranch</b> (Sanity) </a></td><td class="numi">1</td><td>1687409099058</td><td class="numi">6</td></tr><tr class="passedodd"><td><a href="#m3"><b>MortgageLoanwithWeb</b>  </a></td><td class="numi">1</td><td>1687409099073</td><td class="numi">13</td></tr>
+<tr class="passedeven"><td rowspan="3">ICICIBank.SmartLoan<td><a href="#m4"><b>SmartLoanwithAPP</b> (Sanity) </a></td><td class="numi">1</td><td>1687409099124</td><td class="numi">4</td></tr><tr class="passedeven"><td><a href="#m5"><b>SmartLoanwithBranch</b>  </a></td><td class="numi">1</td><td>1687409099136</td><td class="numi">6</td></tr><tr class="passedeven"><td><a href="#m6"><b>SmartLoanwithWeb</b> (Regression) </a></td><td class="numi">1</td><td>1687409099148</td><td class="numi">5</td></tr>
+<tr><th colspan="4">PersonalLoan &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="3">ICICIBank.FixedLoan<td><a href="#m7"><b>FixedLoanwithAPP</b> (Regression) </a></td><td class="numi">1</td><td>1687409099451</td><td class="numi">3</td></tr><tr class="passedodd"><td><a href="#m8"><b>FixedLoanwithBranch</b> (Sanity) </a></td><td class="numi">1</td><td>1687409099457</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m9"><b>FixedLoanwithWeb</b>  </a></td><td class="numi">1</td><td>1687409099464</td><td class="numi">4</td></tr>
+<tr class="passedeven"><td rowspan="3">ICICIBank.FlexiLoan<td><a href="#m10"><b>FlexiLoanwithAPP</b> (Regression) </a></td><td class="numi">1</td><td>1687409099482</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m11"><b>FlexiLoanwithBranch</b>  </a></td><td class="numi">1</td><td>1687409099487</td><td class="numi">3</td></tr><tr class="passedeven"><td><a href="#m12"><b>FlexiLoanwithWeb</b> (Sanity) </a></td><td class="numi">1</td><td>1687409099493</td><td class="numi">1</td></tr>
+<tr><th colspan="4">CarLoan &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="3">ICICIBank.CarBuy<td><a href="#m13"><b>CarBuywithBranch</b>  </a></td><td class="numi">1</td><td>1687409099523</td><td class="numi">3</td></tr><tr class="passedodd"><td><a href="#m14"><b>CarBuywithWeb</b>  </a></td><td class="numi">1</td><td>1687409099529</td><td class="numi">6</td></tr><tr class="passedodd"><td><a href="#m15"><b>CarBuywithAPP</b>  </a></td><td class="numi">1</td><td>1687409099544</td><td class="numi">3</td></tr>
+<tr class="passedeven"><td rowspan="3">ICICIBank.CarLease<td><a href="#m16"><b>CarLeasewithBranch</b>  </a></td><td class="numi">1</td><td>1687409099554</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m17"><b>CarLeasewithWeb</b>  </a></td><td class="numi">1</td><td>1687409099563</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m18"><b>CarLeasewithAPP</b>  </a></td><td class="numi">1</td><td>1687409099567</td><td class="numi">1</td></tr>
 </table>
-<h1>Default test</h1>
-<a id="m1"></a><h2>ICICIBank.CarBuy:CarBuywithWeb</h2>
-<div style="padding-left:3em">
-<p>expected [true] but found [false]</p>
-org.testng.Assert.fail(Assert.java:89)
-<br/>at org.testng.Assert.failNotEquals(Assert.java:489)
-<br/>at org.testng.Assert.assertTrue(Assert.java:37)
-<br/>at org.testng.Assert.assertTrue(Assert.java:47)
-<br/>at ICICIBank.CarBuy.CarBuywithWeb(CarBuy.java:26)
-<br/>25 lines not shown
-</div>
+<h1>HomeLoan</h1>
+<a id="m1"></a><h2>ICICIBank.MortgageLoan:MortgageLoanwithBranch</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m2"></a><h2>ICICIBank.CarBuy:CarBuywithBranch</h2>
+<a id="m2"></a><h2>ICICIBank.MortgageLoan:MortgageLoanwithAPP</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m3"></a><h2>ICICIBank.CarBuy:CarBuywithAPP</h2>
+<a id="m3"></a><h2>ICICIBank.SmartLoan:SmartLoanwithAPP</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>ICICIBank.SmartLoan:SmartLoanwithBranch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>ICICIBank.MortgageLoan:MortgageLoanwithWeb</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>ICICIBank.SmartLoan:SmartLoanwithWeb</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>PersonalLoan</h1>
+<a id="m7"></a><h2>ICICIBank.FixedLoan:FixedLoanwithBranch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>ICICIBank.FlexiLoan:FlexiLoanwithAPP</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>ICICIBank.FixedLoan:FixedLoanwithAPP</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>ICICIBank.FlexiLoan:FlexiLoanwithWeb</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>ICICIBank.FixedLoan:FixedLoanwithWeb</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>ICICIBank.FlexiLoan:FlexiLoanwithBranch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>CarLoan</h1>
+<a id="m13"></a><h2>ICICIBank.CarLease:CarLeasewithWeb</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m14"></a><h2>ICICIBank.CarBuy:CarBuywithWeb</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m15"></a><h2>ICICIBank.CarBuy:CarBuywithBranch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m16"></a><h2>ICICIBank.CarBuy:CarBuywithAPP</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m17"></a><h2>ICICIBank.CarLease:CarLeasewithBranch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m18"></a><h2>ICICIBank.CarLease:CarLeasewithAPP</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

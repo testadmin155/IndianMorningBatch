@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="ICICIBank.SmartLoan"/>
+      <class name="ICICIBank.CarBuy"/>
+      <class name="ICICIBank.FixedLoan"/>
+      <class name="ICICIBank.CarLease"/>
+      <class name="ICICIBank.MortgageLoan"/>
+      <class name="ICICIBank.FlexiLoan"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

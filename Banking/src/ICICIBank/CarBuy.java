@@ -12,9 +12,9 @@ download the testng jar and add to classpath - https://mvnrepository.com/artifac
 add testng library from add library
  */
 
-public class CarBuy {
+public class CarBuy extends Annotations{
 	
-	@Test(groups= {"Sanity"})
+	@Test
 	public void CarBuywithWeb()
 	{
 		System.out.println("CarBuywithWeb");
@@ -26,7 +26,7 @@ public class CarBuy {
 		
 	}
 	
-	@Test
+	@Test(dependsOnMethods = {"CarBuywithWeb"})
 	public void CarBuywithAPP()
 	{
 		System.out.println("CarBuywithAPP");

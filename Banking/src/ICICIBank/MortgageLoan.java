@@ -2,7 +2,7 @@ package ICICIBank;
 
 import org.testng.annotations.Test;
 
-public class MortgageLoan {
+public class MortgageLoan extends Annotations{
 	
 	@Test
 	public void MortgageLoanwithWeb()
@@ -10,7 +10,7 @@ public class MortgageLoan {
 		System.out.println("MortgageLoanwithWeb");
 	}
 	
-	@Test
+	@Test(groups= {"Regression"})
 	public void MortgageLoanwithAPP()
 	{
 		System.out.println("MortgageLoanwithAPP");

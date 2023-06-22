@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="LoanDepartment">
+
 <test name="HomeLoan">
 <classes>
 <class name ="ICICIBank.MortgageLoan"/>

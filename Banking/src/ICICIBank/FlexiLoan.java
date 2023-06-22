@@ -2,7 +2,7 @@ package ICICIBank;
 
 import org.testng.annotations.Test;
 
-public class FlexiLoan {
+public class FlexiLoan extends Annotations{
 	
 	@Test(groups= {"Sanity"})
 	public void FlexiLoanwithWeb()
@@ -10,7 +10,7 @@ public class FlexiLoan {
 		System.out.println("FlexiLoanwithWeb");
 	}
 	
-	@Test
+	@Test(groups= {"Regression"})
 	public void FlexiLoanwithAPP()
 	{
 		System.out.println("FlexiLoanwithAPP");
